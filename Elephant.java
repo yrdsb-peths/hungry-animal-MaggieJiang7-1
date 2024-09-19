@@ -11,9 +11,9 @@ public class Elephant extends Actor
     public void act()
     {
         if (Greenfoot.isKeyDown("left")){
-            move(-2);
+            move(-3);
         } else if (Greenfoot.isKeyDown("right")){
-            move(2);
+            move(3);
         }
         
         // Removes the apple if the elephant collides wiht it
